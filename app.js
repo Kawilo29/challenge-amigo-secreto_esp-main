@@ -18,9 +18,15 @@ function agregarAmigo() {
 }
 
 function limpiarCampo() {
-  document.getforId(amigo).value "";
+  document.getElementById(amigo).value "";
 }
 
+
+function actualizarLista() {
+  for 
+
+
+}
 
 
 agregarAmigo()
