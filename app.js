@@ -7,8 +7,21 @@ let agregarNombre = ""
 function agregarAmigo() {
     //let listaNombresPersonas = document.getElementById('amigo');
     let agregarNombre = prompt("Por favor agrega un nombre:");
-    listaNombresPersonas.push(agregarNombre);
+    if (agregarNombre == "") {
+      alerta("Por favor, inserte un nombre.");
+    } else {
+      listaNombresPersonas.push(agregarNombre);
+    }
+   // listaNombresPersonas.push(agregarNombre);
     console.log(listaNombresPersonas);
+    limpiarCampo()
 }
 
+function limpiarCampo() {
+  document.getforId(amigo).value "";
+}
+
+
+
 agregarAmigo()
+
