@@ -3,6 +3,7 @@
 let amigos = [];
 
 function agregarAmigo() {
+<<<<<<< HEAD
     let agregarNombre = document.getElementById('amigo').value;
     if (agregarNombre == "") {
         alert("Por favor, inserte un nombre.");
@@ -46,3 +47,31 @@ function actualizarListaAmigos() {
 
 //agregarAmigo();
 //actualizarListaAmigos();
+=======
+    //let listaNombresPersonas = document.getElementById('amigo');
+    let agregarNombre = prompt("Por favor agrega un nombre:");
+    if (agregarNombre == "") {
+      alerta("Por favor, inserte un nombre.");
+    } else {
+      listaNombresPersonas.push(agregarNombre);
+    }
+   // listaNombresPersonas.push(agregarNombre);
+    console.log(listaNombresPersonas);
+    limpiarCampo()
+}
+
+function limpiarCampo() {
+  document.getElementById(amigo).value "";
+}
+
+
+function actualizarLista() {
+  for 
+
+
+}
+
+
+agregarAmigo()
+
+>>>>>>> 75e7e830aaa56095422700e8c7f75baaa9255c8e
