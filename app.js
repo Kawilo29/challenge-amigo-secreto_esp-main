@@ -1,14 +1,48 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-let listaNombresPersonas = []
-let nombreAmigo = ""
-let agregarNombre = ""
-
+// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. 
+// Aquí deberás desarrollar la lógica para resolver el problema.
+let amigos = [];
 
 function agregarAmigo() {
-    //let listaNombresPersonas = document.getElementById('amigo');
-    let agregarNombre = prompt("Por favor agrega un nombre:");
-    listaNombresPersonas.push(agregarNombre);
-    console.log(listaNombresPersonas);
+    let agregarNombre = document.getElementById('amigo').value;
+    if (agregarNombre == "") {
+        alert("Por favor, inserte un nombre.");
+    } else {
+        amigos.push(agregarNombre);
+    }
+    limpiarCampo();
+    limpiarlineas()
+    actualizarListaAmigos()
+    return;
 }
 
-agregarAmigo()
+function limpiarCampo() {
+    document.getElementById('amigo').value = "";
+}
+
+function limpiarlineas() {
+    let lista = document.getElementById('listaAmigos');
+    lista.innerHTML = ""
+}
+
+function actualizarListaAmigos() {
+    
+    for (let lecturaArray = 0; lecturaArray < amigos.length; lecturaArray++) {
+        //Recorrer el array
+        var nuevoDato = amigos[lecturaArray];
+        //Tomar id de linea padre <ul> y crear lineas hijos <li>
+        let lista = document.getElementById('listaAmigos');
+        const nuevoElem = document.createElement('li');
+        //Se crean las lineas <li>
+        nuevoElem.textContent = nuevoDato;
+        //Se declara "Listas" como padre <ul> y se asignan los hijos <li> ya creados
+        lista.appendChild(nuevoElem);
+    }
+}
+
+//function sortearAmigos() {
+
+//}
+
+
+//agregarAmigo();
+//actualizarListaAmigos();
