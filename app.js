@@ -10,8 +10,8 @@ function agregarAmigo() {
         amigos.push(agregarNombre);
     }
     limpiarCampo();
-    limpiarlineas()
-    actualizarListaAmigos()
+    limpiarlineas();
+    actualizarListaAmigos();
     return;
 }
 
@@ -39,9 +39,17 @@ function actualizarListaAmigos() {
     }
 }
 
-//function sortearAmigos() {
+function sortearAmigo() {
+    let NumeroMaximo = amigos.length;
+    let numeroSorteo = Math.floor(Math.random()*NumeroMaximo);
 
-//}
+    let NumeroGanador = amigos[numeroSorteo];
+
+    let lineaResultado = document.getElementById('resultado');
+    const nuevoElem = document.createElement('li');
+    nuevoElem.textContent = NumeroGanador;
+    lineaResultado.appendChild(nuevoElem);
+}
 
 
 //agregarAmigo();
