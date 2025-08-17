@@ -50,20 +50,27 @@ function actualizarListaAmigos() {
 }
 
 function sortearAmigo() {
-    //Contamos puestos dentro del array
-    let NumeroMaximo = amigos.length;
-    //Con número de puestos generamos numero aleatorio
-    let numeroSorteo = Math.floor(Math.random()*NumeroMaximo);
-    //Con el número aleatorio traemos el nombre sorteado
-    let NumeroGanador = amigos[numeroSorteo];
-    //Tomar id de linea padre <ul> y crear lineas hijos <li>
-    let lineaResultado = document.getElementById('resultado');
-    const nuevoElem = document.createElement('li');
-    //Se crean la linea <li> para 'resultado'
-    nuevoElem.textContent = `El amigo secreto sorteado es: ${NumeroGanador}`;
-    //Se declara <ul> como padre de <li>
-    lineaResultado.appendChild(nuevoElem);
-    //Limpiar lista de amigos en HTML y limpiar array
-    limpiarlineasAmigos()
-    amigos.length = "";
+    //verificar si existen datos en array
+    if (amigos =="") {
+        alert("Debes ingresar nuevos participantes.");
+        limpiarlineaResultado()
+        console.log(amigos);
+    } else {
+        //Contamos puestos dentro del array
+        let NumeroMaximo = amigos.length;
+        //Con número de puestos generamos numero aleatorio
+        let numeroSorteo = Math.floor(Math.random()*NumeroMaximo);
+        //Con el número aleatorio traemos el nombre sorteado
+        let NumeroGanador = amigos[numeroSorteo];
+        //Tomar id de linea padre <ul> y crear lineas hijos <li>
+        let lineaResultado = document.getElementById('resultado');
+        const nuevoElem = document.createElement('li');
+        //Se crean la linea <li> para 'resultado'
+        nuevoElem.textContent = `El amigo secreto sorteado es: ${NumeroGanador}`;
+        //Se declara <ul> como padre de <li>
+        lineaResultado.appendChild(nuevoElem);
+        //Limpiar lista de amigos en HTML y limpiar array
+        limpiarlineasAmigos()
+        amigos.length = "";
+    }
 }
