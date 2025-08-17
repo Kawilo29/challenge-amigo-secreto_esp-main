@@ -7,7 +7,7 @@
 * [Descripción del proyecto](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/blob/main/README.md#-descripci%C3%B3n-del-proyecto-)
 * [Funcionalidades del proyecto](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/blob/main/README.md#hammerfuncionalidades-del-proyecto)
 * [Acceso al proyecto](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/blob/main/README.md#-acceso-al-proyecto-)
-* [Tecnologías utilizadas](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/blob/main/README.md#-tecnolog%C3%ADas-utilizadas)
+* [Tecnologías utilizadas](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/blob/main/README.md#-tecnolog%C3%ADas-utilizadas-)
 * [Autores](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/blob/main/README.md#autores)
 * [Licencias](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/blob/main/README.md#-licencias-)
 * [Referencias](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/blob/main/README.md#-referencias-)
