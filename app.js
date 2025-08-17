@@ -1,16 +1,21 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. 
 // Aquí deberás desarrollar la lógica para resolver el problema.
 let amigos = [];
+let guardarSorteos = []
 
 function agregarAmigo() {
+    //Llamamos al input de nombres ingresados
     let agregarNombre = document.getElementById('amigo').value;
+    //Verificamos si el campo esta vacío
     if (agregarNombre == "") {
         alert("Por favor, inserte un nombre.");
     } else {
         amigos.push(agregarNombre);
     }
+    //Limpiamos lineas HTML y actualizamos lista de amigos
     limpiarCampo();
-    limpiarlineas();
+    limpiarlineasAmigos();
+    limpiarlineaResultado()
     actualizarListaAmigos();
     return;
 }
@@ -19,13 +24,18 @@ function limpiarCampo() {
     document.getElementById('amigo').value = "";
 }
 
-function limpiarlineas() {
+function limpiarlineasAmigos() {
     let lista = document.getElementById('listaAmigos');
     lista.innerHTML = ""
 }
 
+function limpiarlineaResultado() {
+    let lista = document.getElementById('resultado');
+    lista.innerHTML = ""
+}
+
 function actualizarListaAmigos() {
-    
+    //For para recorrer el array
     for (let lecturaArray = 0; lecturaArray < amigos.length; lecturaArray++) {
         //Recorrer el array
         var nuevoDato = amigos[lecturaArray];
@@ -40,17 +50,20 @@ function actualizarListaAmigos() {
 }
 
 function sortearAmigo() {
+    //Contamos puestos dentro del array
     let NumeroMaximo = amigos.length;
+    //Con número de puestos generamos numero aleatorio
     let numeroSorteo = Math.floor(Math.random()*NumeroMaximo);
-
+    //Con el número aleatorio traemos el nombre sorteado
     let NumeroGanador = amigos[numeroSorteo];
-
+    //Tomar id de linea padre <ul> y crear lineas hijos <li>
     let lineaResultado = document.getElementById('resultado');
     const nuevoElem = document.createElement('li');
-    nuevoElem.textContent = NumeroGanador;
+    //Se crean la linea <li> para 'resultado'
+    nuevoElem.textContent = `El amigo secreto sorteado es: ${NumeroGanador}`;
+    //Se declara <ul> como padre de <li>
     lineaResultado.appendChild(nuevoElem);
+    //Limpiar lista de amigos en HTML y limpiar array
+    limpiarlineasAmigos()
+    amigos.length = "";
 }
-
-
-//agregarAmigo();
-//actualizarListaAmigos();
