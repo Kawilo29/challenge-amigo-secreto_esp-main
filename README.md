@@ -4,41 +4,57 @@
 
 <h1>Índice</h1>
 
-* [Prueba](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/edit/main/README.md#-prueba-)
-* [Insignias](#insignias)
-* [test](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/edit/main/README.md#-test-)
-* [Descripción del proyecto](#descripción-del-proyecto)
-* [Estado del proyecto](#Estado-del-proyecto)
-* [Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
-* [Acceso al proyecto](#acceso-proyecto)
-* [Tecnologías utilizadas](#tecnologías-utilizadas)
-* [Personas Contribuyentes](#personas-contribuyentes)
-* [Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
-* [Licencia](#licencia)
-* [Conclusión](#conclusión)
+* [Descripción del proyecto](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/edit/main/README.md#-descripci%C3%B3n-del-proyecto-)
+* [Funcionalidades del proyecto](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/edit/main/README.md#hammerfuncionalidades-del-proyecto)
+* [Acceso al proyecto](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/edit/main/README.md#-acceso-al-proyecto-)
+* [Tecnologías utilizadas](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/edit/main/README.md#-tecnolog%C3%ADas-utilizadas-)
+* [Autores](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/edit/main/README.md#autores)
+* [Licencias](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/edit/main/README.md#-licencias-)
+* [Referencias](https://github.com/Kawilo29/challenge-amigo-secreto_esp-main/edit/main/README.md#-referencias-)
 
 <h2> Descripción del proyecto </h2>
 <p> 
 El proyecto actual es una página web escrita en leguaje JavaScript, HTML y CSS, la cual nos ayuda sortear el nombre de una persona quien va a ser el amigo secreto, esto lo hace por medio de una lista de nombre que le ingresemos, esto lo va a guardar en un array temporal y al darle “Sortear amigo secreto”, va a elegir un nombre al azar 
 </p>
-<h2> Funcionalidades </h2>
 
 ## :hammer:Funcionalidades del proyecto
 - `Funcionalidad 1`: Registrar temporalmente un listado de nombres en array y la página web 
 - `Funcionalidad 2`: Elegir un nombre aleatoriamente y mostrarlo en página web 
 - `Funcionalidad 3`: Al elegir un nombre este borrara lo nombres ingresados en array en pagina 
 
-<h2> Aplicación </h2>
+<h2> Acceso al proyecto </h2>
+<p>
 
-<img width="627" height="427" alt="image" src="https://github.com/user-attachments/assets/82138338-a7d4-4540-bf67-aa2dc5c4b520" style="border: 2px solid black;" align="center" />
-<img width="632" height="477" alt="image" src="https://github.com/user-attachments/assets/9b307070-5923-4eeb-a6fe-26743303de29" style="border: 2px solid black;"/>
-<img width="632" height="435" alt="image" src="https://github.com/user-attachments/assets/08c9bd42-df65-41ef-9bd1-8894fdc5b35d" style="border: 2px solid black;"/>
+* 📁 Acceso al proyecto
+**https://kawilo29.github.io/challenge-amigo-secreto_esp-main/**
 
+* 🛠️ Aplicación
 
+</p>
+<kbd>
+<img width="527" height="327" alt="image" src="https://github.com/user-attachments/assets/82138338-a7d4-4540-bf67-aa2dc5c4b520" style="border: 10px solid black; margin: 0 auto; display: block;"/>
+</kbd>
+<kbd>
+<img width="532" height="377" alt="image" src="https://github.com/user-attachments/assets/9b307070-5923-4eeb-a6fe-26743303de29" style="border: 2px solid black;"/>
+</kbd>
+<kbd>
+<img width="532" height="335" alt="image" src="https://github.com/user-attachments/assets/08c9bd42-df65-41ef-9bd1-8894fdc5b35d" style="border: 2px solid black;"/>
+</kbd>
 
-<p> </p>
-El README es esencial para comunicar cómo utilizar y entender un proyecto. Este archivo es el punto de referencia inicial para cualquier persona interesada en entender tu proyecto. Un buen README incluye información sobre la instalación, dependencias, cómo ejecutar el proyecto, y posibles problemas o soluciones.
+<h2> Tecnologías utilizadas </h2>
 
-Como reto adicional, crea un README para tu proyecto de "Amigo Secreto" detallando sus funcionalidades, incluyendo capturas de pantalla o videos que muestren cómo agregar nombres y realizar el sorteo. Esta práctica mejorará la documentación, y hará que tu proyecto sea más accesible y profesional para la comunidad.
+* JavaScript
+* HTML
+* CSS
 
-<h2 id="índice"> test </h2>
+## Autores
+| [<img src="https://avatars.githubusercontent.com/u/222977175?v=4" width=115><br><sub>Camilo Rojas</sub>](https://github.com/Kawilo29) | [<img src="https://avatars.githubusercontent.com/u/4975968?s=200&v=4" width=115><br><sub>Alura Cursos Online</sub>](https://github.com/alura-cursos) |
+| :---: | :---: |
+
+<h2> Licencias </h2>
+
+* Software bajo bibliotecas y frameworks de Software libre
+
+<h2> Referencias </h2>
+
+* [alura LATAM](https://www.aluracursos.com/)
