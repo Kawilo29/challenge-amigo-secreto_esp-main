@@ -51,7 +51,7 @@ function actualizarListaAmigos() {
 
 function sortearAmigo() {
     //verificar si existen datos en array
-    if (amigos =="") {
+    if (amigos == "") {
         alert("Debes ingresar nuevos participantes.");
         limpiarlineaResultado()
         console.log(amigos);
