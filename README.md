@@ -58,3 +58,4 @@ El proyecto actual es una página web escrita en leguaje JavaScript, HTML y CSS,
 <h2> Referencias </h2>
 
 * [alura LATAM](https://www.aluracursos.com/)
+* [MDN (Comunidad de developers)](https://developer.mozilla.org/es/)
